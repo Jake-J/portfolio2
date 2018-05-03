@@ -86,6 +86,12 @@ import {projects} from '../data/projects.js';
              }else{
                 codeBtn.style.display = "none";
              }
+             if(projectData.liveLink !== 'nolink'){
+                liveBtn.setAttribute('href',projectData.liveLink);
+                liveBtn.style.display = "inline-block";
+             }else{
+                liveBtn.style.display = "none";
+             }
             
              const technologiesList = document.getElementsByClassName('technologies-list')[0];
              technologiesList.innerHTML = '';

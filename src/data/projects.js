@@ -5,6 +5,8 @@ import wpsite01 from '../img/projects/project4.png'
 import applover from '../img/projects/project5.png'
 import devch02 from '../img/projects/project6.png'
 import currencyImg from '../img/projects/project7.png' 
+import productimg from '../img/projects/project8.png' 
+import devch03 from '../img/projects/project9.png' 
 
 export const projects = [
     {
@@ -55,5 +57,19 @@ export const projects = [
         technologies:['react.js','webpack','Sass'],
         liveLink:'https://jake-j.github.io/currencyAPP/',
         codeLink:'https://github.com/Jake-J/currencyAPP'
+    },
+    {
+        name: "Product Menager App",
+        imgPath: productimg,
+        technologies:['springboot','angular','prime-ng','postgresql','JPA'],
+        liveLink:'nolink',
+        codeLink: 'https://github.com/Jake-J/Product-Menager-App'
+    },
+    {
+        name: "web dev challenge 03",
+        imgPath: devch03,
+        technologies:['bootstrap4','sass','gulp','jQuery'],
+        liveLink:'https://jake-j.github.io/webdev-challange-3/',
+        codeLink: 'https://github.com/Jake-J/webdev-challange-3'
     }
 ]
